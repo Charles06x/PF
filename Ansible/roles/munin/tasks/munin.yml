@@ -1,3 +1,7 @@
 ---
 - name: Instalación de Munin (Monitoreo)
-  apt: name=munin-node state=present
+  apt: name={{ items }} state=present
+  with_items:
+    - munin-node
+    - munin-plugins-extra
+    - git
