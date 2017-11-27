@@ -22,8 +22,8 @@ Realizando las actividades (tasks) del rol "Apache", se instalan los requerimien
 Index.html es sólo una página HTML cambiante para realizar las pruebas.
 Para la prueba es necesario copiar el archivo "Index.html" al contenedor usando el siguiente comando:
                                 
-     cp Index.html {{ container_ID }}:/Index.html 
+        cp Index.html {{ container_ID }}:/Index.html 
      
 Para conocer el ID del contenedor, deberá usar:
-    
-     docker container ls
+
+        docker container ls
