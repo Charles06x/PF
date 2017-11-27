@@ -5,3 +5,9 @@
     - munin-node
     - munin-plugins-extra
     - git
+ - name: ensure config is latest
+  template:
+    src: munin-node.conf.j2
+    dest: /etc/munin/munin-node.conf
+    mode: 0644
+  notify: restart munin-node
