@@ -1,0 +1,6 @@
+---
+  -name: Proyecto Final
+  -hosts: web
+  -remote_user: root
+  roles:
+    - apache
