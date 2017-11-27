@@ -17,3 +17,6 @@ Esto, directamente desde la carpeta donde recide el archivo. {{ name }} es la et
 En esta carpeta, encontramos un archivo "inicial.yml", el cual realiza una configuración sobre el servidor llamado [web], que está en el archivo "hosts", este último debe ser enviado como inventario utilizando -i.
 
 Realizando las actividades (tasks) del rol "Apache", se instalan los requerimientos para apache2 junto a este.
+
+### NOTA:
+Index.html es sólo una página HTML cambiante para realizar las pruebas.
